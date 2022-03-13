@@ -5,6 +5,13 @@
     color: white;
     text-align: center;
 }
+/* .words{
+    margin-top: 15%;
+    padding: auto;
+} */
 .mouse{
     margin-top: 20%;
+}
+.about{
+    text-align: center;
 }
