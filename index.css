@@ -32,3 +32,12 @@
 .pic{
     width: 250px;
 }
+.us{
+    text-align: center;
+    /* color: white; */
+    background-image: url("./assets/contactus.jpg");
+    height: 400px;
+}
+.last{
+    width: 400px
+}
