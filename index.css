@@ -15,3 +15,11 @@
 .about{
     text-align: center;
 }
+.services{
+    text-align: center;
+    color: white;
+    background-image: url("./assets/services.jpg");
+    height: 300px;
+    padding: 80px;
+    margin-top: 50px;
+}
