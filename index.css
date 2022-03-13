@@ -37,7 +37,14 @@
     /* color: white; */
     background-image: url("./assets/contactus.jpg");
     height: 400px;
+    padding: 30px;
 }
 .last{
-    width: 400px
+    width: 400px;
+    margin: 10px;
+}
+.form-floating{
+    width: 700px;
+    margin-left: 20%;
+    
 }
