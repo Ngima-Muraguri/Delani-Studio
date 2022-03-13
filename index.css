@@ -1,0 +1,10 @@
+.home{
+    background-image: url("./assets/steps.jpg");
+    height: 600px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.mouse{
+    margin-top: 20%;
+}
