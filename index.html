@@ -123,7 +123,7 @@
     </div>
 
 <!-- sixth section -->
-    <div class="container">
+    <!-- <div class="container">
 
         <div class="us">
 
@@ -151,6 +151,27 @@
 
         </div>
 
+    </div> -->
+
+    <div class="container-fluid mt-5 delan-form">
+        <h4 class="text-center text-white pt-5">CONTACT US</h4>
+        <form action=" " method="POST">
+            <div class=" form-row d-flex fields">
+                <div class="form-group usrnm" id="usrnm">
+                    <input type="text" class="text-white" id="name" name="name" placeholder="Name..." required>
+                </div>
+                <div class="form-group usrnm" id="usermail">
+                    <input type="email" class="text-white" id="email" name="email" placeholder="Email..." required>
+                </div>
+            </div><br>
+            <div class="form-group text-area">
+                <textarea type="text" name="message" id="message" rows="10" placeholder="Your message here..." required></textarea>
+            </div>
+
+            <div class="col-12 text-center">
+            <button id="submit" type="submit" onclick="sendData()">Submit</button>
+            </div>
+        </form>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

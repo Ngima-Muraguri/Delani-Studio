@@ -29,10 +29,59 @@
 .pic{
     width: 250px;
 }
-.us{
+.delan-form{
+    background-image:url('./assets/contactus.jpg');
+    
+}
+.fields{
+    flex-wrap: wrap;
+}
+
+form{
+    flex-wrap: wrap;
+}
+#name, #email{
+    width: 300px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+::placeholder{
+    color: white;
+}
+.text-area::placeholder{
+    color: white;
+}
+#name{
+    margin-left:330px;
+}
+#email{
+    margin-left: 20px;
+}
+.text-area{
+    margin-left: 330px;
+    color: white;
+
+}
+
+#message{
+    width: 620px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+button{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    width: 100px;
+    border: 2px solid white;
+}
+
+
+/* .us{
     text-align: center;
     /* color: white; */
-    background-image: url("./assets/contactus.jpg");
+    /* background-image: url("./assets/contactus.jpg");
     height: 400px;
     padding: 30px;
 }
@@ -51,4 +100,4 @@
     width: 70px;
     text-align: center;
     margin-left: 50%;
-}
+} */ 
