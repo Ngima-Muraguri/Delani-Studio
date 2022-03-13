@@ -26,3 +26,9 @@
 .what{
     display: flex;
 }
+.portfolio{
+    display: flex;
+}
+.pic{
+    width: 250px;
+}
