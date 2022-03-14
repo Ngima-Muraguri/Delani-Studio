@@ -1,7 +1,8 @@
-$(document).ready(function(){
+$(document).ready(function(e){
     $(".click1").click(function(){
         $(".hide1").slideToggle();
         $(".show1").slideToggle();
+        e.preventDefault();
     });
     $(".click2").click(function(){
         $(".hide2").slideToggle();
@@ -12,7 +13,7 @@ $(document).ready(function(){
         $(".show3").slideToggle();
     });
     $('.displayin').hide();
-    $('.delim').hover(function(){
+    $('.work').hover(function(){
         $(this).find('.displayin').toggle(500);
     });
     $('button').click(function(){

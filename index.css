@@ -26,6 +26,7 @@
 .portfolio{
     display: flex;
 }
+
 .pic{
     width: 250px;
 }
@@ -35,6 +36,9 @@
 }
 .fields{
     flex-wrap: wrap;
+}
+.show1,.show2, .show3{
+display: none;
 }
 
 form{
