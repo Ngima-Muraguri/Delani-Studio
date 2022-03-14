@@ -5,10 +5,6 @@
     color: white;
     text-align: center;
 }
-/* .words{
-    margin-top: 15%;
-    padding: auto;
-} */
 .mouse{
     margin-top: 20%;
 }
@@ -28,20 +24,16 @@
 }
 .displayin{
     
-
-    /* float: left; */
     color: black;
     opacity: 0.5;
     border: 3px solid white;
     background-color: white;
     -ms-transform: translate(-20%, -20%);
     transform: translate(-20%, -20%);
-    /* text-align: center; */
     position: absolute;
     height: 150px;
     width: 60%;
     font-weight: 700;
-    /* display: none; */
     top: 30%;
     left: 30%;
     right: 20%;
@@ -86,7 +78,6 @@ form{
     color: white;
 
 }
-
 #message{
     width: 620px;
     background-color: transparent;
@@ -100,28 +91,3 @@ button{
     width: 100px;
     border: 2px solid white;
 }
-
-
-/* .us{
-    text-align: center;
-    /* color: white; */
-    /* background-image: url("./assets/contactus.jpg");
-    height: 400px;
-    padding: 30px;
-}
-.last{
-    width: 400px;
-    margin: 10px;
-}
-.form-floating{
-    width: 700px;
-    margin-left: 20%;
-    
-}
-.end{
-    margin: 20px;
-    border: 2px solid black;
-    width: 70px;
-    text-align: center;
-    margin-left: 50%;
-} */ 
